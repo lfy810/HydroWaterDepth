@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-IMAGE_PATH = "demo.jpg"
+IMAGE_PATH = "demoImage/demo.jpg"
 
 # ===== 这里调 4 个百分比，直到框住水尺 =====
 ROI_LEFT   = 0.30

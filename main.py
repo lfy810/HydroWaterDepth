@@ -5,11 +5,7 @@ from ultralytics import YOLO
 import matplotlib.pyplot as plt
 
 # ---------------- 路径和参数 ----------------
-# IMAGE_PATH = "demo2.jpg"
 IMAGE_PATH      = "demoImage/MVIMG_20250519_172912.jpg"  # 你的图片路径
-# IMAGE_PATH = "demoImage/MVIMG_20250519_172848.jpg"
-# IMAGE_PATH = "demoImage/IMG_20250519_173249.jpg"
-# IMAGE_PATH = "demoImage/MVIMG_20250519_172912.jpg"
 WATERLINE_MODEL = "waterline.pt"               # 水面线模型
 DIGIT_MODEL     = "train8/weights/best.pt"     # 数字+E刻度模型
 ROI_HEIGHT_LIST = [400, 800, 1200, 1600, 2000] # ROI高度尝试
