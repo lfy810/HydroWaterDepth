@@ -1,0 +1,15 @@
+# === 核心依赖 ===
+opencv-python==4.9.0.80
+paddleocr==2.7.1
+paddlepaddle==2.5.2        # CPU版，适用于大多数无GPU环境
+
+# 图像显示
+matplotlib==3.8.2
+numpy==1.26.4               # 避免 NumPy 2.x 兼容性问题
+
+# 如果未来使用 YOLOv8，可以额外添加：
+# ultralytics==8.1.26        # YOLOv8 推理、训练框架（可选）
+
+# （可选）图像增强库，PaddleOCR底层用到：
+# albumentations==1.3.1     # 有时候安装PaddleOCR会自动包含
+# torch==2.2.2+cpu          # 如果未来结合YOLO或torch增强，请手动安装对应版本
